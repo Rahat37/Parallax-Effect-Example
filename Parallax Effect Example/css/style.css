@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+}
+.img{
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover; 
+    opacity: .6;
+    background-attachment:fixed;
+}
+.img_section{
+    height: 100%;
+    background-image: url("/img/1.jpg");
+}
+.img_section_2{
+    height: 400px;
+    background-image: url("/img/2.jpg");
+}
+.img_section_3{
+    height: 400px;
+    background-image: url("/img/3.jpg"); 
+
+}
+.text_part{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+.text_part span{
+    background-color: cyan;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.main_text{
+    background-color: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
